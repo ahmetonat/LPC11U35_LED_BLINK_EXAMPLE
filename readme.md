@@ -16,9 +16,9 @@ The requirements are:
 - The linker script and startup scripts have been adapted from those for other processors (the vector table that can be found in on the Internet supposedly for LPC11U35 is actually for another processor and the ISR's are not located properly).
 - The checksum for the binary is created by [lpcpatchelf](https://github.com/nPipen/lpcpatchelf)
 
-Finally, all come together using the Makefile supplied as a part of this bundle. To compile the project:
+Finally, they all come together using the Makefile supplied as a part of this bundle. To compile the project:
 - Download and install all the components above, including lpcpatchelf
-- Edit the Makefile so that the paths to the various libraries and locations are correct (this project was build on a Linux machine)
+- Edit the Makefile so that the paths to the various libraries and locations are correct (this project was built on a Linux machine)
 - run: '$ make'
   This will compile the program to the binary image, modify the binary image to the 
 - To flash the processor, connect the USB port, put it into boot mode (power up with ISP_EN PIO0-1 held low) and do:
