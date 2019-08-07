@@ -9,7 +9,7 @@ GCC to the rescue. [GNU ARM Embedded](https://launchpad.net/gcc-arm-embedded) to
 In this repo, I present how to build a project for the LPC11U35 from scratch using open source libraries and tools. It is the compulsory LED blink with a twist; it is based on the SysTick timer interrupt and non-blocking. The board I used is a clone of the [Embedded Artists LPC11U35 Quickstart board](https://www.embeddedartists.com/products/lpc11u35-quickstart/); this one from [Akizuki Denshi of Akihabara, Tokyo](http://akizukidenshi.com/catalog/g/gK-12144/).
 
 The requirements are:
-- [GCC ARM Embedded toolchain](https://launchpad.net/gcc-arm-embedded
+- [GCC ARM Embedded toolchain](https://launchpad.net/gcc-arm-embedded)
 - Lib_CMSISv2p00_LPC11Uxx 
 - Lib_MCU from NXP (From 2010)
  ([Both can be found as a part of this archive](https://www.embeddedartists.com/wp-content/uploads/2018/07/qsb_lpc11u35_120509.zip)
