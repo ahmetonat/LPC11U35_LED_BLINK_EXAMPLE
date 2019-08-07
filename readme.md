@@ -12,7 +12,7 @@ The requirements are:
 - [GCC ARM Embedded toolchain](https://launchpad.net/gcc-arm-embedded)
 - Lib_CMSISv2p00_LPC11Uxx 
 - Lib_MCU from NXP (From 2010)
- ([Both can be found as a part of this archive](https://www.embeddedartists.com/wp-content/uploads/2018/07/qsb_lpc11u35_120509.zip)
+ [Both can be found as a part of this archive](https://www.embeddedartists.com/wp-content/uploads/2018/07/qsb_lpc11u35_120509.zip)
 - The linker script and startup scripts have been adapted from those for other processors (the vector table that can be found in on the Internet supposedly for LPC11U35 is actually for another processor and the ISR's are not located properly).
 - The checksum for the binary is created by [lpcpatchelf](https://github.com/nPipen/lpcpatchelf)
 
