@@ -21,9 +21,9 @@ Finally, they all come together using the Makefile supplied as a part of this bu
 - Edit the Makefile so that the paths to the various libraries and locations are correct (this project was built on a Linux machine)
 - run: `$ make`
   This will compile the program to the binary image, modify the binary image to the 
-- To flash the processor, connect the USB port, put it into boot mode (power up with ISP_EN PIO0-1 held low) and do:
-  `$ make uflash`
-   A reset is needed before your code will run.
+- To flash the processor, connect the USB port, put it into boot mode (power up with ISP_EN PIO0-1 held low). If it goes well, the processor will show up as an imitation mass storage device (USB disk) named "CRP DISABLD"
+- Then run: `$ make uflash`
+   A hard reset is needed before your code will run.
    
    This is a rough guide. If you need any further explanation, please let me know.
    
