@@ -13,10 +13,10 @@ The requirements are:
 - Lib_CMSISv2p00_LPC11Uxx 
 - Lib_MCU from NXP (From 2010)
  [Both can be found as a part of this archive](https://www.embeddedartists.com/wp-content/uploads/2018/07/qsb_lpc11u35_120509.zip)
-- The linker script and startup scripts have been adapted from those for other processors (the vector table that can be found in the startup files on the -Internet supposedly for LPC11U35- is actually for another processor and the ISR's are not located properly).
+- The linker script and startup scripts on the Internet -supposedly for LPC11U35- are actually for another processor and the ISR's are not located properly. I have adapted them for this processor (the vector table in the startup files etc.).
 - The checksum for the binary is created by [lpcpatchelf](https://github.com/nPipen/lpcpatchelf)
 
-Finally, they all come together using the Makefile supplied as a part of this bundle. To compile the project:
+Finally, they all come together using the Makefile supplied. To compile the project:
 - Download and install all the components above, including lpcpatchelf
 - Edit the Makefile so that the paths to the various libraries and locations are correct (this project was built on a Linux machine)
 - run: `$ make`
