@@ -16,7 +16,7 @@ The requirements are:
 - The linker script and startup scripts on the Internet -supposedly for LPC11U35- are actually for another processor and the ISR's are not located properly. I have adapted them for this processor (the vector table in the startup files etc.).
 - The checksum for the binary is created by [lpcpatchelf](https://github.com/nPipen/lpcpatchelf)
 
-Finally, they all come together using the Makefile supplied. To compile the project:
+Finally, they all come together using the Makefile. To compile the project:
 - Download and install all the components above, including lpcpatchelf
 - Edit the Makefile so that the paths to the various libraries and locations are correct (this project was built on a Linux machine)
 - run: `$ make`
